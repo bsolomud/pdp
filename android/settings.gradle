@@ -1,0 +1,3 @@
+rootProject.name = 'pdp'
+
+include ':app'
