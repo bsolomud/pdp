@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {
   AppRegistry,
   Text,
   View,
   TextInput,
   TouchableOpacity
-} from 'react-native';
+} from 'react-native'
 import { styles } from './styles'
 
 
@@ -61,7 +61,6 @@ export class Todo extends Component {
           ))}
         </View>
       </View>
-    );
+    )
   }
 }
-AppRegistry.registerComponent('pdp', () => Todo)
